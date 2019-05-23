@@ -1,0 +1,35 @@
+.pagination {
+  margin-bottom: 1rem;
+
+  .page {
+    padding: 1rem;
+  }
+}
+
+a {
+  cursor: pointer;
+}
+
+ul.nav {
+  padding-left: 0;
+
+  li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 0.5rem;
+  }
+}
+
+.form-group {
+  &.error {
+    input, label {
+      color: #dd514c;
+      border-color: #dd514c;
+    }
+  }
+}
+
+button[disabled] {
+  background-color: #999;
+  cursor: not-allowed;
+}
